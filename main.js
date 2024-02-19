@@ -5,13 +5,14 @@ import BoardGame from "./src/objects/BoardGame";
 import PlayerName from "./src/components/PlayerName";
 import ScoreBoard from "./src/objects/ScoreBoard";
 
+
 const $root = document.querySelector("#root");
 
 //isertAdjacentHTML é usado para inserir
 $root.insertAdjacentHTML(
-    "beforeend", 
+    "beforeend",
     `
     ${ScoreBoard()}
-    ${BoardGame(6)}
+    ${BoardGame(2)}
     `
 );
