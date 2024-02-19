@@ -5,7 +5,7 @@ import BoardGame from "./src/objects/BoardGame";
 
 
 const $root = document.querySelector("#root");
-const $htmlBoardGame = BoardGame(1);
+const $htmlBoardGame = BoardGame(6);
 
 //isertAdjacentHTML é usado para inserir
 $root.insertAdjacentHTML("beforeend", $htmlBoardGame);
